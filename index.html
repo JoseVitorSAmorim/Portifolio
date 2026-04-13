@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>Dev</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projetos</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Olá, eu sou um <span class="highlight">Desenvolvedor</span></h1>
+                <p class="hero-subtitle">Criando soluções digitais inovadoras com código limpo e design moderno</p>
+                <a href="#projects" class="btn btn-primary">Ver Meus Projetos</a>
+                <a href="#contact" class="btn btn-secondary">Entre em Contato</a>
+            </div>
+            <div class="hero-image">
+                <div class="floating-box">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Sou um desenvolvedor full-stack apaixonado por criar experiências web incríveis. 
+                        Com mais de 5 anos de experiência, trabalho com as tecnologias mais modernas 
+                        para entregar soluções escaláveis e performáticas.
+                    </p>
+                    <p>
+                        Minha jornada na programação começou com muita curiosidade e evoluiu para uma 
+                        verdadeira paixão por resolver problemas complexos e aprender constantemente.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Anos de Experiência</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Projetos Completos</p>
+                        </div>
+                        <div class="stat">
+                            <h3>30+</h3>
+                            <p>Clientes Satisfeitos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Minhas Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, React, Vue.js</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3>Backend</h3>
+                    <p>Node.js, Python, Java, Express, Django</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Banco de Dados</h3>
+                    <p>MongoDB, PostgreSQL, MySQL, Firebase</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Ferramentas</h3>
+                    <p>Git, Docker, AWS, CI/CD, Linux</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile</h3>
+                    <p>React Native, Flutter, Swift</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3>Design</h3>
+                    <p>UI/UX, Responsive Design, Figma</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Spectra</h3>
+                        <p>Sistema de registro de alunos</p>
+                        <div class="project-tags">
+                            <span class="tag">Django</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                        <a href="https://www.utiusys.com.br/" class="project-link">Ver Projeto <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>amorim.josevitor@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Telefone</h3>
+                            <p>(44) 98804-8323</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Localização</h3>
+                            <p>Campo Mourão, Paraná, Brasil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+                <p style="font-size: 0.85rem; margin-top: 1rem; opacity: 0.8; text-align: center;">
+                    💡 Para funcionalidade de envio de emails, integre um serviço como Formspree, EmailJS ou Netlify Forms
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 José Vitor. Todos os direitos reservados.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
