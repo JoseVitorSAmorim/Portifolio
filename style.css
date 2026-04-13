@@ -1,4 +1,9 @@
 /* ==================== VARIÁVEIS E RESET ==================== */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
 :root {
     --primary-blue: #0047AB;
     --dark-blue: #002D7A;
@@ -666,7 +671,16 @@ body {
 /* ==================== RESPONSIVO ==================== */
 @media (max-width: 768px) {
     .nav-links {
-        display: none;
+        display: none; /* Já está no seu código */
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: var(--dark-blue);
+        padding: 2rem;
+        text-align: center;
+        gap: 1.5rem;
     }
 
     .hamburger {
@@ -728,6 +742,10 @@ body {
 
     .hero-text h1 {
         font-size: 2rem;
+    }
+
+    .nav-links.active {
+        display: flex;
     }
 }
 
