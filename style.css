@@ -752,3 +752,9 @@ body {
         font-size: 2rem;
     }
 }
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 71, 171, 0.15);
+}
