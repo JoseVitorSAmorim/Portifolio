@@ -81,26 +81,19 @@ document.addEventListener('DOMContentLoaded', animateCounters);
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 
+// Substitua o bloco do hamburger por este:
 if (hamburger) {
     hamburger.addEventListener('click', () => {
-        navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
-        navLinks.style.position = 'absolute';
-        navLinks.style.top = '70px';
-        navLinks.style.left = '0';
-        navLinks.style.right = '0';
-        navLinks.style.backgroundColor = 'rgba(0, 45, 122, 0.98)';
-        navLinks.style.flexDirection = 'column';
-        navLinks.style.padding = '2rem';
+        navLinks.classList.toggle('active');
     });
 }
 
-// Fechar menu ao clicar em um link
+// E para fechar ao clicar:
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
-        if (navLinks) navLinks.style.display = 'none';
+        navLinks.classList.remove('active');
     });
 });
-
 // Efeito parallax no hero
 window.addEventListener('scroll', () => {
     const hero = document.querySelector('.hero');
