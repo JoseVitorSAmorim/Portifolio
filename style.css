@@ -164,6 +164,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    justify-items: center; 
     gap: 4rem;
     position: relative;
     z-index: 1;
@@ -191,7 +192,9 @@ body {
 .hero-text {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
+    align-items: center;
+    text-align: center;
 }
 
 .btn {
